@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
   </head>
   <body>
     <section class="logo">
@@ -15,24 +16,35 @@
     </section>
 
     <section class="pioenrozen">
-      <div class="bovenstedeel">
-        <h1>save the date</h1>
-        <img class="datum" src="img/Date.svg" />
-        <a href="https://bruiloftroosenmaurits.github.io/website/bruiloft.ics">
-          <button>
-            <img src="img/Kalender.svg" />
-            <p>Opslaan in Agenda</p>
-          </button>
-        </a>
-      </div>
-      <div class="onderstedeel">
-        <p>
-          Wij nodigen je hierbij graag uit om op
-          <strong>10 april 2027</strong><br />
-          te vieren dat Maurits Roos & Roos Bugter elkaar het ja-woord geven.
-        </p>
-      </div>
-    </section>
+  <div class="bovenstedeel">
+    <h1>save the date</h1>
+    <img class="datum" src="img/Date.svg" />
+    
+    <add-to-calendar-button 
+      name="Bruiloft Roos Bugter en Maurits Roos"
+      description="Save the date"
+      startDate="2027-04-10"
+      startTime="09:00"
+      endDate="2027-04-10"
+      endTime="23:00"
+      timeZone="Europe/Amsterdam"
+      location="Volgt binnenkort"
+      organizer="Roos en Maurits|bruiloftroosenmaurits@gmail.com"
+      options="'Apple','Google','iCal','Outlook.com'"
+      label="Opslaan in Agenda"
+      customCss="true"
+      class="button"
+    ></add-to-calendar-button>
+  </div>
+  
+  <div class="onderstedeel">
+    <p>
+      Wij nodigen je hierbij graag uit om op
+      <strong>10 april 2027</strong><br />
+      te vieren dat Maurits Roos & Roos Bugter elkaar het ja-woord geven.
+    </p>
+  </div>
+</section>
 
     <section class="vragen-en-contact">
       <h2>Vragen &amp; contact</h2>
