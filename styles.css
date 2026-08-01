@@ -24,7 +24,8 @@ body {
   text-wrap: pretty;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -100,17 +101,17 @@ section.pioenrozen img.datum {
 }
 
 h1 {
-  font-size: clamp(2.5rem, 5vw, 6rem);
+  font-size: clamp(2.25rem, 5vw, 6rem);
   margin: 0;
 }
 
 h2 {
-  font-size: clamp(2rem, 3.5vw, 6rem);
+  font-size: clamp(1.75rem, 3.5vw, 6rem);
   margin: 0;
 }
 
 p {
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
 }
 
 button,
