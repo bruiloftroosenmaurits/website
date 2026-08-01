@@ -166,6 +166,8 @@ textarea {
 .onderstedeel {
   height: 20dvh;
   background-color: var(--groen);
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .vragen-en-contact {
