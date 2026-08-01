@@ -4,6 +4,7 @@
   --bordeaux: #301111;
   --roze: #db5476;
   --groen: #a6af80;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,12 +16,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 100dvw;
+  width: 100%;
   color: var(--bordeaux);
   height: 100%;
   margin: 0;
   padding: 0;
   text-wrap: pretty;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 section {
