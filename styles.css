@@ -170,6 +170,7 @@ textarea {
 
 .onderstedeel p {
   padding: 0 1.5rem;
+  color: var(--bordeaux);
 }
 
 .vragen-en-contact {
