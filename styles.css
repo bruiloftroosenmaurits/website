@@ -78,7 +78,8 @@ section.pioenrozen img.datum {
 }
 
 .bovenstedeel {
-  height: 80%;
+  height: 80dvh; /* Exact hetzelfde als .vragen-en-contact */
+  width: 100%;
   background-image: url("img/Pioenrozen.png");
   background-size: cover;
   background-position: center;
@@ -150,7 +151,8 @@ textarea {
 }
 
 .onderstedeel {
-  height: 20%;
+  height: 20dvh; /* Exact hetzelfde als .footer */
+  width: 100%;
   background-color: var(--groen);
 }
 
