@@ -72,6 +72,10 @@ section.pioenrozen img.datum {
   text-align: center;
 }
 
+.pioenrozen {
+  height: 100%;
+}
+
 .bovenstedeel {
   height: 80%;
   background-image: url("img/Pioenrozen.png");
