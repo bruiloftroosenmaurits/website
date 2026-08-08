@@ -88,7 +88,7 @@ section.pioenrozen img.datum {
 }
 
 .bovenstedeel {
-  height: 80dvh;
+  height: 80%;
   background-image: url("img/Pioenrozen2.png");
   background-size: cover;
   background-position: center;
@@ -164,12 +164,12 @@ textarea {
 }
 
 .onderstedeel {
-  height: 20dvh;
+  height: 20%;
   background-color: var(--groen);
 }
 
 .onderstedeel p {
-  padding: 0 1.5rem;
+  padding: 0 1.75rem;
   color: var(--bordeaux);
 }
 
