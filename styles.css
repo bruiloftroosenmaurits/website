@@ -55,9 +55,9 @@ section.logo img {
 }
 
 .datum {
-  width: 100%;
-  max-width: 150px;
-  max-height: 150px;
+  width: 60%;
+  max-width: 650px;
+  height: auto;
 }
 
 .bovenstedeel,
