@@ -60,21 +60,6 @@ section.pioenrozen img.datum {
   height: auto;
 }
 
-.agendabuttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.agendabuttons button,
-.agendabuttons a.button {
-  padding: 0.25rem 1.25rem;
-}
-
 .bovenstedeel,
 .onderstedeel,
 .vragen-en-contact,
@@ -88,16 +73,12 @@ section.pioenrozen img.datum {
 }
 
 .bovenstedeel {
-  height: 80%;
+  height: 80dvh;
   background-image: url("img/Pioenrozen.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: var(--wit);
-}
-
-.bovenstedeel button {
-  color: var(--bordeaux);
 }
 
 h1 {
@@ -164,12 +145,12 @@ textarea {
 }
 
 .onderstedeel {
-  height: 20%;
+  height: 20dvh;
   background-color: var(--groen);
 }
 
 .onderstedeel p {
-  padding: 0 1.75rem;
+  padding: 0 2rem;
   color: var(--bordeaux);
 }
 
