@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "itc-galliard", serif;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings: "GRAD" 0;
   background-color: var(--wit);
